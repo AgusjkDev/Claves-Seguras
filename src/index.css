@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        overflow-y: overlay;
+    }
+
+    body {
+        @apply bg-slate-50;
+    }
+
+    h1,
+    h2 {
+        @apply -mt-1;
+    }
+}
+
+@layer components {
+    .input-box input:focus ~ span,
+    .input-box input:valid ~ span {
+        @apply border-neutral-500 bg-slate-50;
+
+        transform: translateY(-25px);
+    }
+}
