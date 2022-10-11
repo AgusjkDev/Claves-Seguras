@@ -9,6 +9,7 @@ const PasswordInput = () => {
     return (
         <div className="input-box relative flex w-3/4 items-center text-neutral-700 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 2xl:w-1/4">
             <input
+                id="password"
                 type="password"
                 required="required"
                 value={password}

@@ -27,9 +27,9 @@ const App = () => {
                 </section>
 
                 <main className="flex flex-col items-center gap-4">
-                    <h2 className="bg-gradient-to-r from-cyan-800 via-teal-500 to-emerald-400 bg-clip-text text-center text-xl font-black text-transparent">
+                    <label htmlFor="password" className="bg-gradient-to-r from-cyan-800 via-teal-500 to-emerald-400 bg-clip-text text-center text-xl font-black text-transparent">
                         Prueba tu clave
-                    </h2>
+                    </label>
 
                     <PasswordInput />
                 </main>
