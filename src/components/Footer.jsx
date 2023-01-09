@@ -4,7 +4,7 @@ const Footer = () => {
             <p className="text-center text-sm font-medium text-neutral-500">
                 Hecho con ❤️ por{" "}
                 <a
-                    href="https://github.com/ShadeDev7"
+                    href="https://github.com/AgusjkDev"
                     target="_blank"
                     rel="noopener norefeerer"
                     className="text-neutral-600 underline"
